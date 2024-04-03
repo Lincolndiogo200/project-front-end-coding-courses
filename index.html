@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jall Code</title>
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html">
+        <img
+          src="src/images/web-logo.png"
+          alt="jall code logo"
+          class="image-logo"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="">Home</a></li>
+          <li><a href="#courses">Cursos</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#social">Social</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="user-menu">
+          <li><a href="/login.html" class="">Login</a></li>
+          <li><a href="/register.html" class="sign-up">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="welcome">
+        <h1>Bem-vindos ao JALL CODE</h1>
+        <br />
+        <p>
+          O JALL CODE foi desenvolvido com o propósito nobre de proporcionar uma
+          introdução gratuita à área de Tecnologia da Informação (TI) para
+          jovens entusiastas. Com uma cuidadosa curadoria dos melhores conteúdos
+          sobre programação, este programa oferece uma plataforma de aprendizado
+          acessível e envolvente. Com uma curadoria dos melhores conteúdos sobre
+          programação, e com exercícios selecionados para seu melhor
+          aprendizado.
+        </p>
+          <audio class="audio" controls> 
+            <source src="src/audio/ttsmaker-file-2024-4-3-19-37-57.mp3" type="audio/mp4">
+          </audio>
+        </section>
+      <div id="courses" class="search">
+        <div>
+          <h3>Cursos:</h3>
+        </div>
+        <div class="search-options">
+          <select name="" id="" class="select-style">
+            <option id="#searchInput" class="cursos" value="">Todos os Cursos</option>
+            <option id="#searchInput" class="cursos" value="">Curso de Python</option>
+            <option id="#searchInput" class="cursos" value="">Curso de Java</option>
+            <option id="#searchInput" class="cursos" value="">Curso de HTML5</option>
+            <option id="#searchInput" class="cursos" value="">Curso de CSS3</option>
+            <option id="#searchInput" class="cursos" value="">Curso de JavaScript</option>
+            <option id="#searchInput" class="cursos" value="">Curso de React</option>
+          </select>
+          <input id="search-bar" type="text" placeholder="Pesquise por curso" class="input-options" onkeyup="search()">
+          <button class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50" >
+              <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+              </svg>
+            Buscar
+          </button>
+        </div>
+
+      </div>
+      <section class="courses-container">
+        <div class="courses-grid">
+          <div class="courses-logo">
+            <img src="/src/images/python-logo.png" alt="" />
+            <div>
+              <h4 class="courses-title">Curso Python Básico:</h4>
+              <p class="courses-text">
+                Este curso oferece uma introdução acessível aos fundamentos da
+                linguagem Python. Aprenda sintaxe básica, controle de fluxo,
+                manipulação de arquivos e desenvolvimento de aplicações simples.
+                Ideal para iniciantes em busca de habilidades essenciais de
+                programação.
+              </p>
+              <li>
+                <a
+                  href=https://www.cursoemvideo.com/curso/python-3-mundo-1/
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="courses-logo">
+            <img src="/src/images/java-logo1.png" alt="" />
+            <div>
+              <h4 class="courses-title">Curso Java Básico:</h4>
+              <p>
+                Domine os fundamentos da linguagem Java em nosso curso básico.
+                Aprenda sintaxe, estruturas de controle e comece a construir
+                seus próprios aplicativos. Prepare-se para entrar no mundo da
+                programação com confiança.
+              </p>
+              <li>
+                <a
+                  href=https://www.cursoemvideo.com/curso/java-basico/
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="courses-logo">
+            <img src="/src/images/html5-logo.png" alt="" />
+            <div>
+              <h4 class="courses-title">Curso HTML5 Básico:</h4>
+              <p>
+                Embarque na jornada da web com nosso curso introdutório de
+                HTML5. Descubra os princípios essenciais desta linguagem de
+                marcação e aprenda a criar páginas web dinâmicas e responsivas.
+                Prepare-se para construir sua presença online e explorar novas
+                oportunidades na era digital.
+              </p>
+              <li>
+                <a
+                  href=https://www.cursoemvideo.com/curso/html5-css3-modulo1/
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="courses-logo">
+            <img src="/src/images/css-logo.png" alt="" />
+            <div>
+              <h4 class="courses-title">Curso CSS3 Básico:</h4>
+              <p>
+                Explore o poder do CSS3 em nosso curso básico. Aprenda as
+                técnicas essenciais para estilização de páginas web, incluindo
+                seletores, propriedades e animações. Eleve o visual de seus
+                projetos online e impressione com design moderno e responsivo.
+              </p>
+              <li>
+                <a
+                  href=https://www.cursoemvideo.com/curso/html5-css3-modulo1/
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="courses-logo">
+            <img src="/src/images/js-logo.jpeg" alt="" />
+            <div>
+              <h4 class="courses-title">Curso JavaScript Básico:</h4>
+              <p>
+                Entre no mundo da programação interativa com nosso curso básico
+                de JavaScript. Aprenda os fundamentos essenciais, incluindo
+                variáveis, funções e manipulação do DOM. Capacite-se para criar
+                websites dinâmicos e interativos, expandindo suas habilidades de
+                desenvolvimento web.
+              </p>
+              <li>
+                <a
+                  href=https://www.cursoemvideo.com/curso/javascript/
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+          <div class="courses-logo">
+            <img src="/src/images/react-logo.png" alt="" />
+            <div>
+              <h4 class="courses-title">Curso React Básico:</h4>
+              <p>
+                Descubra o poder do React em nosso curso básico. Aprenda os
+                conceitos fundamentais, incluindo componentes, estados e props,
+                e comece a construir interfaces de usuário dinâmicas e reativas.
+                Capacite-se para criar aplicativos web modernos e escaláveis com
+                uma das bibliotecas mais populares de JavaScript.
+              </p>
+              <li>
+                <a
+                  href=https://www.rocketseat.com.br/formacao/react?utm_source=google&utm_medium=cpc&utm_campaign=lead&utm_term=perpetuo&utm_content=institucional-lead-home-texto-lead-brandkws-none-none-institucional-none-none-br-google
+                  target="_blank"
+                  >Conheça o Curso --></a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id="about" class="about">
+          <h2>Um pouco sobre nós:</h2>
+          <p>JALL CODE é uma plataforma de ensino de programação para jovens. Nosso objetivo é capacitar estudantes a dominar habilidades de programação em um ambiente colaborativo. Oferecemos tutoriais básicos e avançados em várias linguagens. Junte-se a nós enquanto exploramos o mundo da programação e capacitamos a próxima geração de criadores.</p>
+        </div>
+        </section>
+      </section>
+        <section class="social" id="social">
+          <h2>Social:</h2>
+          <div class="info homem">
+            <div class="picture">
+              <img src="./src/images/student_4662864.png" alt="Icone Homem">
+            </div>
+            <div class="table">
+              <table>
+                <tr>
+                  <td>Nome:</td>
+                  <td>Lincoln Diogo</td>
+                </tr>
+                <tr>
+                  <td>Curso:</td>
+                  <td>Sistemas de Informação</td>
+                </tr>
+                <tr>
+                  <td>Área:</td>
+                  <td>Front-end</td>
+                </tr>
+                <tr>
+                  <td>Social:</td>
+                  <td>
+                    <a href="https://www.instagram.com/lincolndfo_/" target="_blank">
+                      <img src="./src/images/instagram.png" alt="Link Instagram">
+                    </a>
+                    <a href="https://github.com/Lincolndiogo200" target="_blank">
+                      <img src="./src/images/github.png" alt="Link GitHub">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="info mulher">
+            <div class="table">
+              <table>
+                <tr>
+                  <td>Nome:</td>
+                  <td>Lorrana Gomes</td>
+                </tr>
+                <tr>
+                  <td>Curso:</td>
+                  <td>Sistemas de Informação</td>
+                </tr>
+                <tr>
+                  <td>Área:</td>
+                  <td>QA</td>
+                </tr>
+                <tr>
+                  <td>Social:</td>
+                  <td>
+                    <a href="https://www.instagram.com/lorranaagomes_?igsh=MWQ2MjJwMGs0NHV3MQ%3D%3D" target="_blank">
+                      <img src="./src/images/instagram.png" alt="Link Instagram">
+                    </a>
+                    <a href="https://github.com/lorranagomes" target="_blank">
+                      <img src="./src/images/github.png" alt="Link GitHub">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="picture">
+              <img src="./src/images/woman_4566036.png" alt="Icone Mulher">
+            </div>
+          </div>
+
+          <div class="info homem">
+            <div class="picture">
+              <img src="./src/images/online-learning_4393885.png" alt="Icone Homem">
+            </div>
+            <div class="table">
+              <table>
+                <tr>
+                  <td>Nome:</td>
+                  <td>Juan Amaral</td>
+                </tr>
+                <tr>
+                  <td>Curso:</td>
+                  <td>Sistemas de Informação</td>
+                </tr>
+                <tr>
+                  <td>Área:</td>
+                  <td>Back-end</td>
+                </tr>
+                <tr>
+                  <td>Social:</td>
+                  <td>
+                    <a href="https://www.instagram.com/juan_amaral20/" target="_blank">
+                      <img src="./src/images/instagram.png" alt="Link Instagram">
+                    </a>
+                    <a href="https://github.com/JuanAmaral20" target="_blank">
+                      <img src="./src/images/github.png" alt="Link GitHub">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="info mulher">
+            <div class="table">
+              <table>
+                <tr>
+                  <td>Nome:</td>
+                  <td>Alice Bianca</td>
+                </tr>
+                <tr>
+                  <td>Curso:</td>
+                  <td>Sistemas de Informação</td>
+                </tr>
+                <tr>
+                  <td>Área:</td>
+                  <td>Banco de dados</td>
+                </tr>
+                <tr>
+                  <td>Social:</td>
+                  <td>
+                    <a href="https://www.instagram.com/alicebianca_4/" target="_blank">
+                      <img src="./src/images/instagram.png" alt="Link Instagram">
+                    </a>
+                    <a href="https://github.com/alicebianca0412" target="_blank">
+                      <img src="./src/images/github.png" alt="Link GitHub">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="picture">
+              <img src="./src/images/woman_2992534.png" alt="Icone Mulher">
+            </div>
+          </div>
+        </section>  
+      <footer id="contato">
+        <div class="contato" >     
+          <h2>Entre em contato conosco:</h2>
+          <div class ="logo">
+            <ul class="logo-area">
+              <li> <img src="src/images/mail.png"class="envelope"> Email: jall.code@gmail.com</li>
+              <li> <img src="src/images/phone.png" class="phone"> Telefone: 0800 903 1457</li>
+              <li> <img src="src/images/message-circle.png" class="message"> Suporte: atendimento@jallcode.com</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <div class="end">
+      <ul class="end-links">
+        <li>© 2024 JallCode, Inc.</li>
+        <li>
+          <a href="">Terms</a >
+        </li>
+        <li>
+          <a href="">Privacy</a>
+        </li>
+        <li>
+          <a href="">Security</a>
+        </li>
+        <li>
+          <a href="">Status</a>
+        </li>
+        <li>
+          <a href="">Docs</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
+        <li>
+          <a href="">Manage cookies</a>
+        </li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
